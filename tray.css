@@ -2,3 +2,9 @@ body{
     font-family: cursive;
     color: cadetblue;
 }
+
+img {
+  max-width: 50%
+  width: auto;
+  height: auto;
+}
