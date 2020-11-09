@@ -1,10 +1,16 @@
 body{
-    font-family: cursive;
-    color: cadetblue;
+    font-family: 'Arimo', sans-serif;
+    color:olive;
+font-size:30px;
 }
 
+    
+        h1{
+font-family: 'Secular One', sans-serif;
+color: firebrick}
+
 img {
-  max-width: 100%
+  max-width: 100%;
   width: auto;
   height: auto;
 }
