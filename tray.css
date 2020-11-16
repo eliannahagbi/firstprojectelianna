@@ -1,25 +1,26 @@
-body{
-    
+body {
+
     font-family: 'Arimo', sans-serif;
-    color:olive;
-font-size:30px;
+    color: olive;
+    font-size: 30px;
 }
 
-    
-        h1{
-font-family: 'Secular One', sans-serif;
-color: firebrick}
+
+h1 {
+    font-family: 'Secular One', sans-serif;
+    color: firebrick
+}
 
 img {
-  max-width: 100%;
-  width: auto;
-  height: auto;
+    max-width: 100%;
+    width: auto;
+    height: auto;
 }
 
 .container {
-    max-width:800px;
+    max-width: 800px;
     margin: auto;
-    
-    
-        
+
+
+
 }
