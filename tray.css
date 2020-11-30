@@ -1,14 +1,14 @@
 body {
 
     font-family: 'Arimo', sans-serif;
-    color: olive;
+    color: #7e636c;
     font-size: 20px;
 }
 
 
 h1 {
     font-family: 'Secular One', sans-serif;
-    color: firebrick
+    color: #d81f05
 }
 
 img {
@@ -26,26 +26,37 @@ img {
 }
 
 .cta {
-    background-color: floralwhite;
-    font-size: 21 px;
+    background-color: #d4acb0d4;
+    font-size: 21px;
     text-align: center;
     padding: 20px;
-    color: crimson;
+    color: white;
     margin-top: 50px;
     margin-bottom: 50px;
+    overflow: hidden;
 }
 
-a {
-    color: darkblue
-}
+
 
 .button {
-    background color: blue;
-    color: white;
+    
     text-decoration: none;
     padding: 14px;
     display: inline-block;
     text-align: center;
 }
+a {
+    color: white;
+    background-color: #36adb3;
+    display: inline-block;
+    padding: 15px 30px;
+    
+}
 
 
+
+.alignleft {
+    float: left;
+    margin-right: 14px;
+    margin-bottom: 14px;
+}
