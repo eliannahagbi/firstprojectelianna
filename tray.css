@@ -28,7 +28,7 @@ img {
 .cta {
     background-color: #d4acb0d4;
     font-size: 21px;
-    text-align: center;
+    text-align: right;
     padding: 20px;
     color: white;
     margin-top: 50px;
@@ -59,4 +59,21 @@ a {
     float: left;
     margin-right: 14px;
     margin-bottom: 14px;
+}
+
+.news {
+    background: url(img/tabel.jpg);
+    padding: 60px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-size: 30px;
+    color: white
+    
+}
+
+.news h2{
+    font-size: 50px;
+    color: black;
+    
 }
