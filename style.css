@@ -1,57 +1,87 @@
-
-body{
+body {
     margin: 0;
     font-family: 'Suez One', serif;
     font-family: 'Assistant', sans-serif;
-font-family: 'Suez One', serif;
+    font-family: 'Suez One', serif;
 }
+
 .about {
-    background color: bisque;
-        
+    background-color: #cb9fc4;
+
 }
+
 .container {
-  max-width: 900px;
-  margin: auto;
-font-size: 20px;
+    max-width: 900px;
+    margin: auto;
+    font-size: 20px;
+    color: white;
 }
+
 img {
-  max-width: 100%;
-  width: auto;
-  height: auto;
+    max-width: 100%;
+    width: auto;
+    height: auto;
 }
 
 .about .container {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  align-items: center;
-  grid-gap: 30px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    grid-gap: 30px;
 }
+
 .about img {
-  display: block;
+    display: block;
 }
+
 h1 {
-  font-size: 48px;
-  line-height: 1.1;
+    font-size: 48px;
+    line-height: 1.1;
+    color: #6b4665;
 }
+
 .button {
-  color: black;
+    color: white;
     text-decoration: none;
-    border: 3px solid black;
+    border: 3px solid white;
     padding: 14px 20px;
     display: inline-block;
     margin-top: 10px;
     border-radius: 15px;
     margin-bottom: 10px;
     transition: .3s;
-    
+
 }
 
-h1, h2, h3, h4, .button {
-  font-family: 'Assistant', sans-serif;
-  font-weight: 400;
+h1,
+h2,
+h3,
+h4,
+.button {
+    font-family: 'Suez One', serif;
+    font-weight: 400;
 }
-.button:hover{
-    background color:papayawhip;
-    color: firebrick;
+
+.button:hover {
+    background-color: white;
+    color: #8c5d84;
+
+}
+
+.gallery {
     
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 28px;
+}
+
+}
+
+.gallery img {
+    display: block;
+}
+
+
 }
