@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'Suez One', serif;
     font-family: 'Assistant', sans-serif;
-    font-family: 'Suez One', serif;
+    
 }
 
 .about {
@@ -14,7 +14,7 @@ body {
     max-width: 900px;
     margin: auto;
     font-size: 20px;
-    color: white;
+    
 }
 
 img {
@@ -28,6 +28,7 @@ img {
     grid-template-columns: 2fr 1fr;
     align-items: center;
     grid-gap: 30px;
+    color: white;
 }
 
 .about img {
@@ -75,6 +76,10 @@ h4,
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 28px;
+    color:#6b4665;
+    font-family: 'Suez One', serif;
+    font-size: 25;
+    text-align: center;
 }
 
 }
@@ -82,6 +87,40 @@ h4,
 .gallery img {
     display: block;
 }
+.contact {
+  background:antiquewhite;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 60px;
+  padding: 40px 0;
+}
+.contact a:hover {
+color:blue;
+}
+a {
+  color: #000;
+  
+}
+.contact ul {
+  list-style: none;
+  padding: 0;
+}
+.contact li {
+  margin-bottom: 7px;
+}
+.footer {
+  background:#8c5d84 ;
+  text-align: center;
+  padding: 20px 0;
+
+}
+.footer a {
+  margin: 0 10px;
+}
+
+
 
 
 }
+
+
