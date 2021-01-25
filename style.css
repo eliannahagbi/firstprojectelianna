@@ -6,7 +6,11 @@ body {
 }
 
 .about {
-    background-color: #cb9fc4;
+    background-image: url(img/back.png);
+    background-size:cover;
+    
+    
+    
 
 }
 
@@ -38,7 +42,7 @@ img {
 h1 {
     font-size: 48px;
     line-height: 1.1;
-    color: #6b4665;
+    color: white;
 }
 
 .button {
