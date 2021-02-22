@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'spoiler';
+  src: url('fonts/opensans/400/opensanshebrew-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'spoiler';
+  src: url('fonts/opensans/700/opensanshebrew-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'almoni-neue';
+  src: url('fonts/opensans/300/opensanshebrew-light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  font-family: 'spoiler', arial, sans-serif;
+  line-height: 1.5;
+}
